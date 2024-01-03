@@ -12,7 +12,7 @@ const int MAX_N = 1'000'000;
 
 template <typename T>
 void my_print(const vector<T>& vec){
-    // Is there a std way to print vectors? I do not know, but it should be!
+   
     for (const T& val: vec) {
         cout << val << ", ";
     }
